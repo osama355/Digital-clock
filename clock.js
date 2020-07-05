@@ -13,7 +13,7 @@ function setTime() {
         sess = "AM";
     }
     if (hour < 10) {
-        hour = "0" + h;
+        hour = "0" + hour;
     }
     if (min < 10) {
         min = "0" + min;
