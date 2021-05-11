@@ -3,14 +3,14 @@ function setTime() {
     hour = date.getHours();
     min = date.getMinutes();
     sec = date.getSeconds();
-    sess = "PM";
+    sess = "AM";
 
     if (hour == 0) {
         hour = 12;
     }
     if (hour > 12) {
         hour = hour - 12;
-        sess = "AM";
+        sess = "PM";
     }
     if (hour < 10) {
         hour = "0" + hour;
